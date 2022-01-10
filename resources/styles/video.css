@@ -1,0 +1,38 @@
+.video {
+    width: 100%;
+}
+
+#project-container {
+    margin: var(--mb-2);
+}
+
+#project-title {
+    text-align: center;
+    margin-bottom: var(--mb-1);
+}
+
+#project-video {
+    margin-top: var(--mb-1-5);
+}
+
+#project-skills {
+    font-weight: bold;
+    border-bottom: solid var(--first-color-lighter);
+}
+
+#project-description {
+    margin: var(--mb-1) 0;
+}
+
+#skill-list {
+    list-style-type: square;
+    margin-top: var(--mb-1);
+    margin-left: var(--mb-1-5);
+}
+
+@media screen and (min-width:768px) {
+    main#main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

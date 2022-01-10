@@ -4,253 +4,378 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../resources/styles/font-awesome.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../resources/styles/main.css" >    
-    <script src="../resources/scripts/jquery-3.6.0.min.js"></script>
-    <script src="../resources/scripts/main.js"></script>
-    <link rel="shortcut icon" href="../images/logo/logo-ico.ico">
     <meta name="description" content="Portafolio de desarrollador de Software con proyectos propios."/>
     <meta name="keywords" content="programador,programming,software,software engineer,programming software"/>
     <meta name="author" content="Paulo Astorga"/>
     <meta name="copyright" content="Protegido por Copyright 2021."/>
     <meta name="robots" content="index"/>
-    <title>Portafolio de desarrollador de Software</title>
+
+    <link rel="stylesheet" type="text/css" href="resources/styles/main.css" >    
+    <link rel="shortcut icon" href="resources/images/logo/logo-ico.ico">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+    
+    <title>Paulo Astorga</title>
 </head>
 <body>
     
-    <header>
-
-        <div class="header-container">
-
-            <div class="logo-container">
-
-                <i id="logo-image"></i>
-
-                <h4 id="logo-text">Lorem Ipsum</h4>
-
+    <header id="header" class="header_body">
+        <div id="header-container" class="header_container">
+            <div id="logo-container" class="logo_container">
+                <h3 id="logo-text">Paulo Astorga</h3>
             </div>
-
-            <nav class="header-nav">
-
-                <ul id="header-ul">
-
-                    <li id="header-li">
-                        <a id="header-a" href="#">Link 1</a>
+                
+            <nav id="nav" class="nav">
+                <ul id="nav-ul" class="nav_ul">
+                    <li id="nav-li" class="nav_li">
+                        <a id="nav-link" class="nav_link" href="#">
+                            <i class="uil uil-home"></i> Inicio
+                        </a>
                     </li>
 
-                    <li id="header-li">
-                        <a id="header-a" href="#">Link 2</a>
+                    <li id="nav-li" class="nav_li">
+                        <a id="nav-link" class="nav_link" href="web/proyectos/proyectos.html">
+                            <i class="uil uil-folder-check"></i> Proyectos
+                        </a>
                     </li>
 
-                    <li id="header-li">
-                        <a id="header-a" href="#">Link 3</a>
+                    <li id="nav-li" class="nav_li">
+                        <a id="nav-link" class="nav_link" href="web/contacto/contacto.html">
+                            <i class="uil uil-user"></i> Contacto
+                        </a>
                     </li>
-
-                    <li id="header-li">
-                        <a id="header-a" href="#">Link 4</a>
-                    </li>
-
                 </ul>
-
+                <i class="uil uil-multiply" id="close-menu"></i>
             </nav>
-
-            <div class="login-container">
-            
-                <i id="header-login-image"></i>
-
-                <section class="header-login-rels">
-
-                    <a id="login-a" href="#">¿Olvidó su contraseña?</a>
-                    <a id="login-a" href="#">Crear una cuenta</a>
-
-                </section>
-
-            </div>
-
+            <i class="uil uil-bars" id="toggle-menu"></i>
         </div>
-
     </header>
 
-    <main>
-        <div class="main-div">
+    <main id="main" class="main_body">
 
-            <div class="main-description">
+        <aside class="main__aside" id="main-aside">
+            <ul class="main__list">
+                <li id="back-aside" class="main__item back">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-                <div class="title">
-                    <h2 id="title-text">
-                        Paulo Astorga
-                    </h2>
-                </div>
+                <li class="main__item facebook">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-                <div class="content">
+                <li class="main__item github">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-                    <p id="content-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit sequi inventore! Quisquam, obcaecati odio.
-                    </p>
+                <li class="main__item twitter">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-                    <p id="content-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iste mollitia placeat? Saepe, error commodi! Officia laudantium magnam vitae fugit provident rem saepe perspiciatis? Quibusdam, fugiat. Ullam voluptates laboriosam, quam eius doloribus veritatis ad molestiae repudiandae incidunt, debitis quaerat nobis minima inventore sint delectus odio neque similique nulla temporibus laudantium!
-                    </p>
+                <li class="main__item google">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-google fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
 
-                </div>
+                <li class="main__item whatsapp">
+                    <a href="#" class="main__link">
+                        <i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </aside>
+
+        <section id="home" class="home section">
+            <div id="personal-info" class="first_div">
+                <img id="home-image" class="main_image" alt="home image" src="resources/images/logo/matue.png">
+                <h2 id="title" class="home_title">Paulo Astorga</h2>
+                <span id="first-section-subtitle" class="subtitle">
+                    Desarrollador de Software.
+                </span>
+                <p id="first-section-paragraph" class="paragraph">
+                    Experiencia en diseño web, bases de datos, programacion orientada a objetos entre otras.
+                </p>
+            </div>
+
+            <div id="personal-info" class="second_div">
+                <a id="contact-button" class="button" href="#contact">
+                    <i class="uil uil-message"></i> Contáctame
+                </a>
+            </div>
+
+        </section>
+
+        <section id="contact" class="contact section">
+            <div id="contact-title" class="title high">
+                <h2 id="title" class="contact_title">Sobre mi</h2>
+            </div>
+            <div id="contact-subtitle" class="subtitle high">
 
             </div>
 
-            <div class="main-idk">
+            <div id="contact-container" class="container">
+                <img id="contact-image" class="main_image" alt="contact image" src="resources/images/logo/user.png">
 
+                <p id="contact-description" class="description">
+                    Desarrollador Junior enfocado a Front y Back End.
+                </p>
+
+                <div id="showcase-container" class="showcase">
+                    <div id="individual-showcase" class="individual-showcase">
+                        <span id="about-info" class="plus_info">+15</span>
+                        <span id="about-info" class="rest_info"><br>Lenguajes y <br>Frameworks</span>
+                    </div>
+
+                    <div id="individual-showcase" class="individual-showcase">
+                        <span id="about-info" class="plus_info">+15</span>
+                        <span id="about-info" class="rest_info"><br>Proyectos <br>Independientes</span>
+                    </div>
+
+                    <div id="individual-showcase" class="individual-showcase">
+                        <span id="about-info" class="plus_info">+1.5</span>
+                        <span id="about-info" class="rest_info"><br>Años <br>desarrollando</span>
+                    </div>
+                </div>
+
+                <a id="cv-button" class="button" href="resources/documents/CV.Paulo.Astorga.pdf" download>
+                    <i class="uil uil-download-alt"></i> Descarga mi CV
+                </a>
             </div>
 
-            <aside class="related-projects">
+        </section>
 
-                <ul id="related-ul">
+        <section id="skills" class="skills section">
+            <div id="skills-title" class="title high">
+                <h2 id="title" class="skills_title">Conocimientos</h2>
+            </div>
 
-                    <li id="related li">
-                        <a id="related-a" href="#" >Link 1</a>
-                    </li>
+            <div id="skills-subtitle" class="subtitle high">
+                <p id="skills-description" class="paragraph">
+                    Mis conocimientos varían desde entorno Oracle (Java, Jakarta 9, JSP, JPA, JSF, Springboot), Python (Django, Flask),
+                    Web (HTML, CSS, Javascript, JQuery, Vue.js), SQL (MySQL, SQL Server, Oracle SQL, PLSQL, T-SQL), C# (.NET), Office y además distintas Herramientas
+                    de análisis y desarrollo general de proyectos; StarUML, Diagramación en general, Ingeniería de Software, etc.
+                </p>
+            </div>
 
-                    <li id="related li">
-                        <a id="related-a" href="#" >Link 2</a>
-                    </li>
+            <div id="skills-content" class="skills container">
+                <div id="skills-frontend" class="frontend">
+                    <h3 id="skills-title" class="container_title">
+                        <i class="uil uil-brackets-curly"></i> FrontEnd</h3>
+                    <ul id="skills-list" class="list">
+                        <li id="skills-element" class="element">
+                            <b>HTML</b>
+                        </li>
 
-                    <li id="related li">
-                        <a id="related-a" href="#" >Link 3</a>
-                    </li>
+                        <li id="skills-element" class="element">
+                            <b>CSS</b>
+                        </li>
 
-                    <li id="related li">
-                        <a id="related-a" href="#" >Link 4</a>
-                    </li>
+                        <li id="skills-element" class="element">
+                            <b>Javascript</b>
+                        </li>
 
-                </ul>
+                        <li id="skills-element" class="element">
+                            <b>JQuery</b>
+                        </li>
 
-            </aside>
+                        <li id="skills-element" class="element">
+                            <b>Vue</b>
+                        </li>
+                    </ul>
+                </div>
 
-        </div>
+                <div id="skills-backend" class="backend">
+                    <h3 id="skills-title" class="container_title">
+                        <i class="uil uil-arrow"></i> Backend</h3>
+                    <ul id="skills-list" class="list">
+                        <li id="skills-element" class="element">
+                            <b>Java</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Python</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>PHP</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>C#</b>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="skills-sql" class="sql">
+                    <h3 id="skills-title" class="container_title">
+                        <i class="uil uil-database"></i> SQL y Gestores</h3>
+                    <ul id="skills-list" class="list">
+                        <li id="skills-element" class="element">
+                            <b>SQL</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Transact SQL</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>PLSQL</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>MySQL</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Microsoft Server SQL</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Oracle SQL</b>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="skills-frameworks" class="frameworks">
+                    <h3 id="skills-title" class="container_title">
+                        <i class="uil uil-books"></i> Frameworks</h3>
+                    <ul id="skills-list" class="list">
+                        <li id="skills-element" class="element">
+                            <b>Vue.js</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>.NET</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>SpringBoot</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Django</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Flask</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>CodeIgniter</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>JQuery</b>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="skills-frameworks" class="others">
+                    <h3 id="skills-title" class="container_title">
+                        <i class="uil uil-lightbulb"></i> Otros</h3>
+                    <ul id="skills-list" class="list">
+                        <li id="skills-element" class="element">
+                            <b>Java EE (Jakarta9)</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>JSP</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>JPA</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>JSF</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>StarUML</b>
+                        </li>
+
+                        <li id="skills-element" class="element">
+                            <b>Inglés C1</b>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        
+
     </main>
 
-    <footer>
-
-        <div class="footer-container">
-
-            <div class="first-footer-section">
-
-                <section class="social-container">
-
-                    <div class="social-element">
-
-                        <i id="facebook-logo"></i>
-
-                        <h5 id="facebook-text"></h5>
-
-                    </div>
-                    
-                    <div class="social-element">
-
-                        <i id="instagram-logo"></i>
-                        
-                        <h5 id="instagram-text"></h5>
-
-                    </div>
-
-                    <div class="social-element">
-
-                        <i id="github-logo"></i>
-                        
-                        <h5 id="github-text"></h5>
-
-                    </div>
-
-                    <div class="social-element">
-
-                        <i id="linkedin-logo"></i>
-                        
-                        <h5 id="linkedin-text"></h5>
-
-                    </div>
-
-                </section>
-
-            </div>
-
-            <div class="second-footer-section">
-
-                <div class="links-container">
-
-                    <ul id="footer-link-ul">
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Contacto</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Promocionarse</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Archivos</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Politica de Privacidad</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Disclaimer</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="links-container">
-
-                    <ul id="footer-link-ul">
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Acerca de</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Proyectos</a>
-                        </li>
-
-                        <li id="footer-link-li">
-                            <a id="footer-link-a" href="#">Conocimientos</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="information-container">
-
-                    <section class="copyright">
-                        <h4>Paulo Astorga Copyright 2021</h4>
-                    </section>
-
-                    <div class="information">
-
-                        <p id="information-p">
-                            <a id="footer-information-a" href="#">Únete</a> para recibir noticias y estar al tanto de contenido exclusivo
-                        </p>
-
-
-
-                        <form id="footer-form">
-                            <h4>Suscribete para mas noticias</h4>
-                            <input type="email" required id="email" name="email" placeholder="Email">
-                            <input type="submit" id="submit" name="submit" value="Suscribirse">
-
-                        </form>
-
-                    </div>
-
-                </div>
-
-            </div>
-
+    <footer id="footer" class="main_footer">
+        
+        <div id="footer-personal" class="personal_info">
+            <h3 id="footer-personal" class="personal_info">Paulo Astorga</h3>
+            <span id="footer-personal" class="personal_subinfo">Desarrollador de Software</span>
         </div>
+
+        <div id="footer-referals" class="referals">
+            <ul id="referal-list" class="list">
+                <li id="referal-element" class="element">
+                    <a id="referal-link" class="link" href="#">
+                        Proyectos
+                    </a>
+                </li>
+
+                <li id="referal-element" class="element">
+                    <a id="referal-link" class="link" href="#">
+                        Contactame
+                    </a>
+                </li>
+
+                <li id="referal-element" class="element">
+                    <a id="referal-link" class="link" href="#">
+                        Politica de Privacidad
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="social-links" class="social_links">
+            <ul id="social-list" class="list">
+                <li id="social-element" class="element">
+                    <a id="social-links" class="link" href="#">
+                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li id="social-element" class="element">
+                    <a id="social-links" class="link" href="#">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+                <li id="social-element" class="element">
+                    <a id="social-links" class="link" href="#">
+                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="copyright-container" class="copyright">
+            <span>Paulo Astorga 2021 © <br> Todos los derechos reservados</span>
+        </div>
+
+
 
     </footer>
 
+    <script src="resources/scripts/jquery-3.6.0.min.js"></script>
+    <script src="resources/scripts/main.js"></script>
 </body>
 </html>
