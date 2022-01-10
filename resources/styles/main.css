@@ -466,28 +466,13 @@ ul#referal-list {
 
 /*Contact*/
 
-div#contact-content {
-    margin: var(--mb-1);
+
+div#footer-personal {
+    padding: var(--mb-1);
 }
 
-form#form-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-
-div#input-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: var(--mb-1);
-}
-
-input {
-    border: none;
-    border-bottom: solid var(--first-color);
+a#fudeso-link {
+    color: var(--first-color);
 }
 
 /*-----*/
